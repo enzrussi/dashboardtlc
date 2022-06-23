@@ -15,6 +15,13 @@
             </a>
           </div>
         </nav>
+      <?php
+
+        $jsonfile = file_get_contents("links.json");
+        $json = json_decode($jsonfile);
+        var_dump($json);
+
+      ?>
 
     
     </div>
