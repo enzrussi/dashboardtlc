@@ -4,13 +4,31 @@
         "title":"Inventario TLC",
         "subtitle":"Database inventario",
         "description": "Database di Pc, Indirizzi IP, materiale, radio, utenti esterni ADN",
-        "url":"http://10.129.10.112/tlcinventario"
+        "url":"http://10.129.10.112/tlcinventario",
+        "urladmin":""
+    },
+    {
+        "title":"Home Page Questura",
+        "subtitle":"Home page della Questura di Trento",
+        "description":"Pageina di utlità della Questura di Trento",
+        "url":"http://10.129.10.112/intraquest"
+        "urladmin":"http://10.129.10.112/intraquest/administrator"
+
+    },
+    {
+        "title":"Dokuwiki",
+        "subtitle":"Documentazione Tecnica",
+        "description":"Raccolta di documentazione tecnica, e manuali di istruzioni di pubblica utilità e riservata ai tecnici",
+        "url":"http://10.129.10.112/dokuwiki",
+        "urladmin":""
+
     },
     {
         "title":"",
         "subtitle":"",
         "description":"",
-        "url":""
+        "url":"",
+        "urladmin":""
 
     }
 
