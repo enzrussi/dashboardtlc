@@ -23,22 +23,20 @@
         $json = json_decode($jsonfile);
 
         //estraggo i dati e creo le varie card
+        echo "<div class='row'>";
         foreach ($json->links as $j){
   
-          echo "Title:" .$j->title;
-          echo "Description: ". $j->description;
-          echo "Url: ".$j->url;
-          echo "<br>";
-
-          echo '<div class="card" style="width: 18rem;">
+          echo '<div class="col-3">
+                <div class="card" style="width: 18rem;">
                 <div class="card-body">
                 <h5 class="card-title">'.$j->title.'</h5>
                 <h6 class="card-subtitle mb-2 text-muted">'.$j->subtitle.'</h6>
                 <p class="card-text">'.$j->description.'</p>
                 <a href="'.$j->url.'" class="card-link">Clicca qui</a>
-                </div>
-                </div>';
+                </div></div></div>';
         }
+
+        echo "</div>";
         
 
       ?>
