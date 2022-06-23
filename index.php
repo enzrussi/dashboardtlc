@@ -19,7 +19,17 @@
 
         $jsonfile = file_get_contents("links.json");
         $json = json_decode($jsonfile);
-        var_dump($json);
+        foreach ($json->links as $j){
+
+          print_r($j);
+          echo "<br>";
+  
+          echo "Title:" .$j->title;
+          echo "Description: ". $j->description;
+          echo "Url: ".$j->url;
+          echo "<br>";
+        }
+        
 
       ?>
 
