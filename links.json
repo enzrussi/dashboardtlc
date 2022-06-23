@@ -11,7 +11,7 @@
         "title":"Home Page Questura",
         "subtitle":"Home page della Questura di Trento",
         "description":"Pageina di utlità della Questura di Trento",
-        "url":"http://10.129.10.112/intraquest"
+        "url":"http://10.129.10.112/intraquest",
         "urladmin":"http://10.129.10.112/intraquest/administrator"
 
     },
@@ -23,14 +23,30 @@
         "urladmin":""
 
     },
-        {
+    {
+        "title":"Gestione file",
+        "subtitle":"",
+        "description":"",
+        "url":"",
+        "urladmin":""
+
+    },
+    {
+        "title":"Rubrica",
+        "subtitle":"",
+        "description":"",
+        "url":"",
+        "urladmin":""
+
+    },
+    {
         "title":"",
         "subtitle":"",
         "description":"",
         "url":"",
         "urladmin":""
 
-    },  
+    },
     {
         "title":"",
         "subtitle":"",
