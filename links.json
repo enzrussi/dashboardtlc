@@ -2,11 +2,13 @@
     "links":[
     {
         "title":"Inventario TLC",
+        "subtitle":"Database inventario",
         "description": "Database di Pc, Indirizzi IP, materiale, radio, utenti esterni ADN",
         "url":"http://10.129.10.112/tlcinventario"
     },
     {
         "title":"",
+        "subtitle":"",
         "description":"",
         "url":""
 
