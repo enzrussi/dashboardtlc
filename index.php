@@ -31,8 +31,8 @@
                 <div class="card-body">
                 <h5 class="card-title">'.$j->title.'</h5>
                 <h6 class="card-subtitle mb-2 text-muted">'.$j->subtitle.'</h6>
-                <p class="card-text">'.$j->description.'</p>
-                <a href="'.$j->url.'" class="card-link">Clicca qui</a>
+                <p class="card-text ">'.$j->description.'</p>
+                <a href="'.$j->url.'" class="card-link">Vai alla pagina ...</a>
                 </div></div></div>';
         }
 
