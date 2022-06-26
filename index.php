@@ -7,10 +7,10 @@
   </head>
   <body>
     <div class="container">
-        <nav class="navbar bg-light">
+        <nav class="navbar bg-primary navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="" alt="" width="30" height="24" class="d-inline-block align-text-top">
+              <img src="./images/logo_polizia_di_stato.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
              Questura di Trento - U.T.L. - 4^ Sezione Telecomunicazioni
             </a>
           </div>
@@ -19,17 +19,28 @@
       <?php
 
         //leggo il file json
+
+        // inventario tlc f
+        // dokuwiki f
+        // utlticket f
+        // tinyFilemanager f
+        // homepagequestura f
+        // projeqtor f
+        // nubuilder f
+        // rubrica
+
+
         $jsonfile = file_get_contents("links.json");
         $json = json_decode($jsonfile);
 
         //estraggo i dati e creo le varie card
-        echo "<div class='row'>";
+        echo "<div class='row mt-3'>";
         foreach ($json->links as $j){
   
-          echo '<div class="col-3">
+          echo '<div class="col-3 mb-1">
                 <div class="card" style="width: 18rem;">
+                <div class="card-header">'.$j->title.'</div>
                 <div class="card-body">
-                <h5 class="card-title">'.$j->title.'</h5>
                 <h6 class="card-subtitle mb-2 text-muted">'.$j->subtitle.'</h6>
                 <p class="card-text ">'.$j->description.'</p>
                 <a href="'.$j->url.'" class="card-link">Vai alla pagina ...</a>

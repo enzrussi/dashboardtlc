@@ -10,9 +10,15 @@
     {
         "title":"Home Page Questura",
         "subtitle":"Home page della Questura di Trento",
-        "description":"Pagina di utlità della Questura di Trento",
-        "url":"http://10.129.10.112/intraquest",
-        "urladmin":"http://10.129.10.112/intraquest/administrator"
+        "description":"Pagina di utilità della Questura di Trento",
+        "url":"http://10.129.10.112/intraquest"
+
+    },
+    {
+        "title":"Home Page Questura - Amministrazione",
+        "subtitle":" Amministrazione Home page della Questura di Trento",
+        "description":"Pagina di utilità della Questura di Trento",
+        "url":"http://10.129.10.112/intraquest/administrator"
 
     },
     {
@@ -24,36 +30,40 @@
 
     },
     {
-        "title":"Gestione file",
-        "subtitle":"",
-        "description":"",
-        "url":"",
-        "urladmin":""
+        "title":"tinyFileManager",
+        "subtitle":"Repository per Download",
+        "description":"Repository per file e programmi per download",
+        "url":"http://10.129.10.112/tinyfilemanager/tinyfilemanager.php"
+
+    },
+    {
+        "title":"UtlTicket",
+        "subtitle":"Piattaforma per Gestione Ticket",
+        "description":"Gestione sistema di richiesta interventi ecc.",
+        "url":"http://10.129.10.112/utlticket/scp"
+
+    },
+    {
+        "title":"Projeqtor",
+        "subtitle":"gestione progetti",
+        "description":"Sistema di gestione e pianificazione progetti",
+        "url":"http://10.129.10.112/projeqtor"
+
+    },
+    {
+        "title":"nuBuilder",
+        "subtitle":"gestione database Mysql",
+        "description":"gestione del database Mysql",
+        "url":"http://10.129.10.112/nubuilder"
 
     },
     {
         "title":"Rubrica",
-        "subtitle":"",
-        "description":"",
-        "url":"",
-        "urladmin":""
-
-    },
-    {
-        "title":"",
-        "subtitle":"",
-        "description":"",
-        "url":"",
-        "urladmin":""
-
-    },
-    {
-        "title":"",
-        "subtitle":"",
-        "description":"",
-        "url":"",
-        "urladmin":""
-
+        "subtitle":"Rubrica Telefonica Online",
+        "description":"Rubrica del personale e degli uffici",
+        "url":"http://10.129.10.112/rubrica/public/home"
+    
     }
 
 ]}
+
